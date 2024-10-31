@@ -98,7 +98,7 @@ button {
 
 
     .header-list,
-    .address {
+    .address-list {
     display: none;
     }
 
@@ -135,16 +135,21 @@ display: block;
 
 
 @media screen and (min-width: 768px) {
-    .burger-btn {
-        display: none;
-    }
-}
-
-.header-list {
+    .header-list {
     display: flex;
     align-items: center;
     gap: 40px;
+        }
 }
+@media screen and (min-width: 768px) {
+    .address-list {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
 
 .header-logo {
     padding: 24px 0;
@@ -198,12 +203,6 @@ display: block;
 }
 
 
-.address-list {
-    gap: 12px;
-    display: flex;
-    flex-direction: column;
-   
-}
 
 .address-link {
     display: block;
@@ -215,6 +214,11 @@ display: block;
 
 }
 
+@media screen and (min-width: 768px) {
+.burger-btn {
+    display: none;
+}
+}
 
 @media screen and (min-width: 1158px) {
     .header-logo {
