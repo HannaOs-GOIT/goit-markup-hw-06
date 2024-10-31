@@ -69,7 +69,8 @@ button {
      margin: 0 auto;
  }
 
- @media screen and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
     .container {
     max-width: 768px;}
  }
@@ -79,7 +80,7 @@ button {
     max-width: 1158px;
       padding: 0 15px;
     }
-  }
+  } 
 
    /* header */
 
@@ -94,12 +95,14 @@ button {
     align-items: center;
     justify-content: space-between;
     }
+
+
     .header-list,
     .address {
     display: none;
     }
-    
- .logo {
+
+.logo {
  font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -118,6 +121,7 @@ display: block;
     color: #2e2f42;
 }
 
+
 .burger-btn {
     border: none;
     background-color: transparent;
@@ -129,9 +133,10 @@ display: block;
     fill: #2f2f37;;
 }
 
+
 @media screen and (min-width: 768px) {
     .burger-btn {
- display: none;
+        display: none;
     }
 }
 
@@ -186,10 +191,12 @@ display: block;
      color: #404bbf;
  }
 
+
 .address {
     font-style: normal;
     display: block;
 }
+
 
 .address-list {
     gap: 12px;
