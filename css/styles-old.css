@@ -2,9 +2,7 @@
 
  
 
-.footer-logo .logo-part {
-    color:  #f4f4fd;
-}
+
 
 
 
@@ -66,7 +64,7 @@ overflow: auto;
 
 /* footer */
 
-
+/*
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -76,12 +74,10 @@ overflow: auto;
   align-items: baseline;
 }
 
-/*
+
 .footer-logo-container {
 margin-right: 120px;
 }
-*/
-
 
 .footer-logo {
   display: inline-block;
@@ -104,6 +100,7 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 }
+
 
 .footer-social-container {
   display: block;
@@ -137,6 +134,7 @@ height: 40px;
   .footer-social-icons-link:focus {
   background: #31D0AA;
     }
+    
 
 .subscribe-box {
   margin-left: 80px;
@@ -163,6 +161,7 @@ margin-bottom: 16px;
   
 }
 
+
 .email-input:placeholder {
   background-color: transparent;
   border: 1px solid #fff;
@@ -188,11 +187,12 @@ padding-left: 16px;
 color: #ffffff;
 }
 
+
 .subscribe-box {
   gap: 24px;
   margin-left: 80px;
 }
-
+*/
 .subscribe-button {
 border-radius: 4px;
 padding: 8px 24px;
