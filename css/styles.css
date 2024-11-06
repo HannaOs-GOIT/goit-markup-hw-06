@@ -213,22 +213,6 @@ display: block;
 }
 
 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1158px) {
     .header-logo {
        margin-right: 76px;
@@ -280,11 +264,10 @@ transition:
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
-    justify-content: space-between;
-
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 320px;
 }
 .mobile-close-button {
     position: absolute;
@@ -345,10 +328,8 @@ transition:
 .mobile-social {
     display: flex;
     gap: 40px;
-
-    position: relative;
-    text-align: center;
     justify-content: flex-start;
+    margin-bottom: 40px;
 
 }
 
@@ -499,3 +480,381 @@ transition:
         margin-bottom: 48px;
     }
 }
+
+/* principles of our work */
+
+
+.feature {
+    padding: 96px 0;
+    }
+
+    .feature-icons-box {
+        display: none;
+      }
+
+      .feature-list {
+        display: flex;
+        gap: 72px;
+        flex-wrap: wrap;
+      }
+
+         
+      .feature-list-item {
+        width: 100%;
+      }
+   
+    .feature-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-align: center;
+            }
+ 
+    .feature-text
+    {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    max-width: 288px;
+    }
+ 
+
+    @media screen and (min-width: 768px) {
+    .feature {
+    padding: 96px 0;
+            }
+            
+    .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px; 
+    margin-bottom: 96px;
+      }
+
+    .feature-list-item {
+    width: calc((100% - 24px) / 2);
+    }
+    .feature-title {
+    text-align: left;
+
+}
+
+    .feature-text
+    {
+    width: 356px;
+}
+    }
+
+
+    @media screen and (min-width: 1158px) {
+        .feature {
+            padding: 120px 0;
+            }
+
+        .feature-list {
+        display: flex;
+        gap: 24px;
+              }
+                       
+            .feature-icons-box {
+              max-width: 264px;
+              border: 1px solid #8e8f99;
+              background: #f4f4fd;
+              margin-bottom: 8px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 112px;
+              border-radius: 4px;
+            }
+            
+            .feature-icons {
+            background-position: center;
+            background: #f4f4fd;
+           }
+
+            .feature-list-item {
+                width: calc((100% - 72px) / 4);
+            }
+
+    
+        .feature-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            }
+
+        .feature-text {
+            font-weight: 400;
+            font-size: 16px;
+            width: 264px;
+           }
+        }            
+
+        /* team */
+
+        .team {
+            background: #f4f4fd;
+            padding: 96px 0;
+        }
+        
+        .team-container {
+            max-width: 296px;
+        }
+
+
+        .team-card-container {
+            display: flex;
+            gap: 72px;
+            flex-wrap: wrap;
+           
+        }
+
+        .team-card {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
+            text-transform: capitalize;
+            margin-bottom: 72px;
+        }
+        
+        .card {
+            background: #fff;
+            padding-left: 0; 
+            margin: 0;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 
+            0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+            width: 100%;
+        }
+
+        .card-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+            }
+
+        .card-content {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #434455;
+            margin-bottom: 8px;
+            }
+
+        .card-container {
+            padding: 32px 0;
+            }
+
+        .social {
+            display: flex;
+            gap: 72px;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            }
+
+                .icons-list {
+                    width: 40px;
+                    height: 40px;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                  }
+
+                  
+.social-icons-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    fill: #f4f4fd;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    }
+
+   
+  .social-icons-link:hover,
+  .social-icons-link:focus {
+  background: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+                
+        @media screen and (min-width: 768px) {
+
+        .team-container {
+            max-width: 768px;
+            }
+        .team-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px; 
+            row-gap: 64px;
+            margin-bottom: 96px;
+        }
+
+        .card {
+            width: calc((100% - 24px) / 2);
+    }
+
+   .social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px; 
+    margin-bottom: 96px;
+    }
+
+}@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .team-container {
+      max-width: 584px;
+    }
+  }
+
+        @media screen and (min-width: 1158px) {
+            .team {
+            padding: 120px 0;
+            }
+
+            .team-container {
+                max-width: 1158px;
+            }
+
+            .team-card-container {
+                display: flex;
+                gap: 24px;
+                justify-content: center;
+            }
+
+            .card {
+                width: calc((100% - 72px) / 4);
+            }
+
+            .social {
+            gap: 24px;
+            margin-left: 16px;
+            }
+        }
+
+        /* portfolio */
+
+        .portfolio {
+            padding-top: 96px;
+            padding-bottom: 96px;
+            }
+
+        .portfolio-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
+            text-transform: capitalize;
+            margin-bottom: 72px;
+                }
+                
+
+        .portfolio-title-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 48px;
+               }
+
+        .portfolio-box {
+            width: 100%;
+            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+
+        .portfolio-box:hover
+        .cover-text {
+            transform: translateY(0);
+        }  
+
+        .project-card {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+            }
+            
+
+        .project-card-content {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            }
+
+        .project-card-container {
+            padding: 32px 16px;
+            padding-left: 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+        }
+
+        @media screen and (min-width: 768px) {
+
+        .portfolio-container {
+            max-width: 768px;
+            }
+
+        .portfolio-title-container {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px; 
+            row-gap: 72px;
+            margin-bottom: 96px;
+                    }
+            
+        .portfolio-box {
+            width: calc((100% - 24px) / 2);
+                }
+            }
+            
+        @media screen and (min-width: 1158px) {
+
+        .portfolio-container {
+            max-width: 1158px;
+                    }
+        
+        .portfolio-title-container {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px; 
+            row-gap: 48px;
+                   }
+                    
+        .portfolio-box {
+            width: calc((100% - 48px) / 3);
+             }
+
+        .portfolio-box:hover
+        .cover-text {
+        transform: translateY(0);
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+         
+                }
+                    }
+                
+            
+                                
