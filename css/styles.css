@@ -1107,9 +1107,8 @@ width: 100%;
     
           
         .footer-social-container {
-        /*display: block;*/
-        margin-left: 0;
-                }
+        display: block;
+        }
                    
           
         .subscribe-box {
