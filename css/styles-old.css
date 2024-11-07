@@ -136,9 +136,7 @@ height: 40px;
     }
     
 
-.subscribe-box {
-  margin-left: 80px;
- 
+
 }
 .footer-form {
   display: flex;
@@ -192,7 +190,7 @@ color: #ffffff;
   gap: 24px;
   margin-left: 80px;
 }
-*/
+
 .subscribe-button {
 border-radius: 4px;
 padding: 8px 24px;
@@ -219,9 +217,9 @@ display: flex;
   width: 24px;
   height: 24px;
 }
-
+*/
 /* modal */
-
+/*
     .backdrop {
       position: fixed;
       top: 0;
@@ -248,6 +246,7 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   top: 50%;
   left: 50%;
+  
 
   width: 408px;
   min-height: 584px;
@@ -308,10 +307,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
-  }
-
-.modal-text {
-  text-align: center;
   max-width: 360px;
   margin-top: 0;
   margin-bottom: 16px;
@@ -363,7 +358,7 @@ fill: #4D5AE5;
 .modal-textarea:focus {
 border-color: #4d5ae5; 
 }
-
+*/
 .modal-field {
   margin-bottom: 24px;
 }
