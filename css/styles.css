@@ -889,13 +889,16 @@ transition:
         .footer-container {
         display: flex;
         flex-wrap: wrap;
-        align-items: baseline;
-        justify-content: flex-start;
+        justify-content: center;
+        /*align-items: baseline;
+        justify-content: flex-start;*/
+        margin: 0 auto;
         gap: 72px;
           }
 
           .footer-logo-container{ 
 text-align: center;
+width: 100%;
           }
 
         .footer-logo .logo-part {
@@ -903,8 +906,9 @@ text-align: center;
         }
 
         .footer-logo {
-        display: inline-block;
+        display: block;
         margin-bottom: 16px;
+        text-align: center;
           }
 
        
@@ -914,6 +918,8 @@ text-align: center;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 288px;
+        text-align: left;
+
             }
 
         .social-media {
@@ -923,8 +929,8 @@ text-align: center;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
-        align-items: center;
-                }
+        text-align: center;
+         }
 
       
         .footer-icons-list {
@@ -958,9 +964,9 @@ text-align: center;
 
         .footer-form {
             display: flex;
-            /* flex-wrap: wrap;*/
-           flex-direction: column;
-            gap: 24px;
+        flex-direction: column;
+           /*flex-direction: column;*/
+            gap: 16px;
                
                   }
 
@@ -997,14 +1003,19 @@ text-align: center;
             letter-spacing: 0.04em;
             padding-left: 16px;
             color: #ffffff;
+            text-align: left;
              }
 
       .subscribe-box {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+       /* flex-wrap: wrap;*/
         align-items: center;
-        gap: 24px;
-        
-              }
+        gap: 16px;
+        justify-content: center;
+        width: 100%;
+         }
         
 
         .subscribe-button {
@@ -1016,7 +1027,7 @@ text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+       flex-direction: row;
         gap: 16px;
         font-size: 16px;
         font-weight: 500;
@@ -1025,6 +1036,7 @@ text-align: center;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        margin: 16px auto 0 auto;
                 }
 
         .subscribe-icon {
@@ -1036,7 +1048,7 @@ text-align: center;
 
         @media screen and (min-width: 768px) and (max-width: 1157px) {
         .footer-container 
-        {max-width: 584px;}
+        {max-width: 768px;}
     }
 
         @media screen and (min-width: 768px) {
@@ -1045,20 +1057,31 @@ text-align: center;
         row-gap: 72px;
         padding-left: 108px;
         padding-right: 108px;
+        align-items: baseline;
         }
 
         .footer-text {
         max-width: 264px;
             }
-
-        .footer-form {
-        flex-direction: row;
-              }
-
-       
+        .social-media {
+        text-align: left;
+        margin-bottom: 16px;
+            }
+        .social-footer {
+        display: flex;
+        justify-content: left;
+        gap: 16px;
+            }
         .subscribe-text {
         text-align: left;
-                        } 
+                                } 
+
+        .footer-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: baseline;
+              }
 
         .email-input {
         width: 264px;
@@ -1076,21 +1099,19 @@ text-align: center;
             display: flex;
             align-items: baseline;
           }
+
+          .footer-logo-container {
+            margin-right: 120px;
+            max-width: 264px;
+        }
+    
           
         .footer-social-container {
-        display: block;
+        /*display: block;*/
+        margin-left: 0;
                 }
                    
-        .footer-container {
-        display: flex;
-        align-items: baseline;
-             }
-
-
-        .footer-logo-container {
-        margin-right: 120px;
-    }
-
+          
         .subscribe-box {
         gap: 24px;
         margin-left: 80px;}
