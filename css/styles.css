@@ -409,17 +409,16 @@ button {
       url(../images/Dark-bg-tablet-x1.jpg);
     max-width: 768px;
   }
-}
-
-@media screen and (min-resolution: 2dppx),
-  (min-resolution: 192dpi),
-  (-webkit-min-device-pixel-ratio: 2) {
-  .main-title {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tablet-x2.jpg);
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .main-title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tablet-x2.jpg);
+    }
   }
 }
 
@@ -443,17 +442,17 @@ button {
       url(../images/Dark-bg-desk-x1.jpg);
     max-width: 1440px;
   }
-}
 
-@media screen and (min-resolution: 2dppx),
-  (min-resolution: 192dpi),
-  (-webkit-min-device-pixel-ratio: 2) {
-  .main-title {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-desk-x2.jpg);
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .main-title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-desk-x2.jpg);
+    }
   }
 }
 
